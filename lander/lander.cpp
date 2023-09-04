@@ -35,7 +35,7 @@ vector3d Gravity(vector3d pos_1) {
     r_mag = pos_1.abs();
 
     F = -(GRAVITY * MARS_MASS * m) * r_hat / pow(r_mag, 2);
-
+    cout << "something" << endl;
     return F;
 
 }
